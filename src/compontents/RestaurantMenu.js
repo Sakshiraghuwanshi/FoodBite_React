@@ -21,6 +21,7 @@ const RestaurantMenu = () => {
             setRestaurantDetails(res?.data?.cards[0]?.card?.card?.info);
     }
 
+
     return (
         <>
         <div>

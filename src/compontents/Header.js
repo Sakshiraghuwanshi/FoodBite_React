@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Instamart from "./Instamart";
 
 const Title=()=>
 {
@@ -24,6 +25,7 @@ const Header =()=> {
                <Link to = "/About"> <li>About</li></Link>
                <Link to = "/Contact"> <li>Contact</li></Link>
                 <li>Cart</li>
+                <Link to = "/Instamart"> <li>Instamart</li></Link>
                 </ul>
 
             </div>
